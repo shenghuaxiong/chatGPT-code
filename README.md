@@ -2,11 +2,11 @@
 
 ## 感谢ourongxing/chatgpt-vercel对 diu8081/chatgpt-demo进行功能上的增强。在此基础上，我们进行了界面定制和改进，增加邀请码的验证，方便公众号和博主们区域管理，得到最终版： [ChatGPT](https://github.com/shenghuaxiong/chatGPT-code)。
 
-## 预览: [https://nwzz.world](https://nwzz.world)
+## 预览: [https://www.chatrobot.lol](https://www.chatrobot.lol)
 
 
 
-## 学习交流、经验分享、指导答疑，加vx: sophie_sheng1122
+## 学习交流、经验分享、指导答疑，加vx: mmchsy_de
 
 
 ![](assets/screenshot1.png)
@@ -21,7 +21,7 @@
 
 如果你只需要部署一个你自己用的网站，而不需要定制，那么你完全不需要在本地跑起来，你可以直接点击下面的按钮，然后按照提示操作即可。 Vercel 域名已经被墙，所以你需要绑定自己的域名才行。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/shenghuaxiong/chatGPT-code)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/songyingde/chatGPT-code/tree/patch-8)
 
 如果你需要部署给更多人用，那么你可能需要将上面创建的你自己的仓库 `git clone` 到本地。
 
@@ -49,7 +49,7 @@
    }
    ```
 
-3. 之前版本我设置了每次刷新重置 `开启连续对话` 选项，因为一般用不上这个，比较费钱。当前版本我已经移除了这个特性，如果你需要给更多人用，建议打开，只要将 [这行代码](https://github.com/ourongxing/chatgpt-vercel/blob/main/src/components/Generator.tsx#LL53C10-L53C39) 取消注释即可。
+3. 之前版本我设置了每次刷新重置 `开启连续对话` 选项，因为一般用不上这个，比较费钱。当前版本我已经移除了这个特性，如果你需要给更多人用，建议打开，只要将 [这行代码](https://github.com/songyingde/chatgpt-vercel/blob/main/src/components/Generator.tsx#LL53C10-L53C39) 取消注释即可。
 
 4. `git commit & push` 即可重新部署，vscode 上点几下就可以了。
 
